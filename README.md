@@ -1,14 +1,14 @@
 # Tikz and CircuiTikz
 
-A list of useful examples of tikz and circuitikz drawing
-
 ## todo
 
 tikz
-- polar-coord
-- phasor-diagram
+
+polar-coord.tex
+phasor-diagram.tex
 
 circuitikz
-- bipoles
-- instruments
-- transformer
+
+bipoles.tex
+instruments.tex
+transformer.tex
