@@ -1,0 +1,22 @@
+\documentclass{article}
+\usepackage[]{tikz}
+
+\title{A Picture for Karl's Students}
+\date{}
+
+\begin{document}
+\maketitle
+
+    \begin{tikzpicture}
+        \draw (-1.5,0) -- (1.5,0);
+        \draw (0,-1.5) -- (0,1.5);
+    \end{tikzpicture}
+
+    \tikzset{Karl's grid/.style={help lines, color=blue!50}}
+    \tikzset{Karl's grid/.default=blue}
+    \begin{tikzpicture}
+        \draw[Karl's grid] (0,0) grid (1.5,2);
+        \draw[Karl's grid=red] (2,0) grid (3.5,2);
+    \end{tikzpicture}
+
+\end{document}

@@ -1,14 +1,5 @@
 # Tikz and CircuiTikz
 
-## todo
+## training
 
-tikz
-
-polar-coord.tex
-phasor-diagram.tex
-
-circuitikz
-
-bipoles.tex
-instruments.tex
-transformer.tex
+- tikz. tutorial1
