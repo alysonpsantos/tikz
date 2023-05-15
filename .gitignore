@@ -12,3 +12,5 @@
 *.run.xml
 *.synctex.gz
 *.toc
+*.swp
+*.pdf:Zone.Identifier
