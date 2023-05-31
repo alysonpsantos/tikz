@@ -7,6 +7,15 @@
 \begin{document}
 \maketitle
 
+The basic building block of all pictures in TikZ is the path. A path is a 
+series of straight lines and curves that are connected (that is not the
+whole picture, but let us ignore the complications for the moment).
+
+You start a path by specifying the coordinates of the start position
+as a point in round bracekts, as in (0,0). This is followed by a
+series of path extension operations. It must be, then, followed by another
+coordinate.
+
     \begin{tikzpicture}
         \draw (-1.5,0) -- (1.5,0);
         \draw (0,-1.5) -- (0,1.5);
@@ -46,6 +55,9 @@
         \draw (0, -1.5) -- (0, 1.5);
         \draw[step=.5cm] (-1.4,-1.4) grid (1.4,1.4);
     \end{tikzpicture}
+
+Styles are made even more powerful by parametrization (can also be 
+used with a parameter).
 
     \tikzset{Karl's grid/.style={help lines, color=blue!50}}
     \tikzset{Karl's grid/.default=blue}
