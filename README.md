@@ -1,13 +1,8 @@
 # Tikz and CircuiTikz
 
-## Organization
+TikZ and CircuiTikz conpendium
 
-Files named by themes. Files use tikz and circuitikz packages
+## References
 
-Training sessions following tutorials/documentation are in the training folder.
-
-# References
-
-- <https://www.overleaf.com/>
-- <https://texample.net/>
-
+- [Overleaf](https://www.overleaf.com/)
+- [texample.net](https://texample.net)
